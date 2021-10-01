@@ -8,8 +8,12 @@ def main():
     board = [['-', '-', '-'],
          ['-', '-', '-'],
          ['-', '-', '-']]
+    
+    playerTurn = 0
+    playing = False
 
-    printBoard(board)
+    while(playing):
+        pass
 
 if __name__=="__main__":
   main()
